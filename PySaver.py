@@ -13,11 +13,9 @@ Email: mascia.guido@gmail.com
 Last Edit: 01.20.2024
 """
 
-from PyQt5.QtGui import * 
-from PyQt5.QtWidgets import * 
+from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QAction, QSystemTrayIcon, QMenu
 import subprocess
-from subprocess import run
-import tkinter as tk
 import tkinter.messagebox as tkmb
 
 # Check which profile is currently active
